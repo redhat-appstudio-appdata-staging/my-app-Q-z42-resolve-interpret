@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-btgg
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/jhutar-tenant/my-app/devfile-sample-btgg@sha256:0004f78719959407d7389c1c1e3c3996eeac8c1ee670f4c9d288144296a56db2
         name: my-nodejs
         ports:
         - containerPort: 3001
